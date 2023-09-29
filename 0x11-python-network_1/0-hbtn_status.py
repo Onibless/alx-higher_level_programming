@@ -10,3 +10,7 @@ import urllib.request
         print("\t- type:", type(html))
         print("\t- content:", html)
         print("\t- utf8 content:", html.decode('utf-8'))
+
+
+        if __name__ == '__main__':
+    fetch_status()
